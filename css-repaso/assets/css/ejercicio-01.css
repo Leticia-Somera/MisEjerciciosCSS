@@ -1,0 +1,39 @@
+body {
+    background-color: #D3D3D3;
+    font-family: sans-serif;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.subtitulo {
+    margin: 10px auto;
+    padding-left: 10px;
+    background-color: #808080;
+    color: white;
+    width: 1100px;
+}
+
+.imagen  {
+    margin-left: 210px;
+    float: left;
+}
+
+.cuerpo {
+    width: 1100px;
+    height: 50px;
+    font-size: 11px;
+    text-align: justify; 
+    text-indent: 30px;   
+}
+
+.rojo {
+    color: red;
+    font-style: italic;
+}
+
+.blanco  {
+    font-weight: bold;
+    background-color: white;
+}

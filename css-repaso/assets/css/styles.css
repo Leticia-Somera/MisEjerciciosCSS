@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: #62b6b6;    
+    height: 50px;    
+}
+
+.menu ul {
+    width: max-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu .elemento {
+    display: inline;
+    margin: 0 20px;
+    padding: 20px; /*Esto es para que resalten recuadros de color cuando pasamos el mouse por el menú*/
+    /* margin: superior derecha inferior izquierda*/
+}
+
+.elemento a {
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 50px;
+    transition: 0.8s;
+}
+
+.elemento a:hover {
+    color: #62b6b6;
+    font-size: 28px;
+}
+
+.menu .elemento:hover {
+    background-color: #ffffff;
+}
